@@ -63,6 +63,7 @@ nav li a {
     align-items: center;
     gap: 11vw;
     height: 90vh;
+    margin-top: 8vh;
 }
 
 .hero-text {
@@ -86,7 +87,7 @@ nav li a {
 }
 
 .hero-image {
-    background-image: url('images/Circle\ design.svg');
+    background-image:url('images/main-camera.png'), url('images/Circle\ design.svg');
     background-position: center;
     /* ene ami cover use korcilam jate responsive e problem hoitasilo bg img position e. contain use korate thik kaj kortese */
     background-size: contain;
@@ -97,9 +98,48 @@ nav li a {
 
 }
 
-.hero-image img {
+/* .hero-image img {
     width: 28vw;
     height: auto;
     padding-top: 4vh;
     padding-left: 1vw;
+} */
+
+
+
+
+/* media query */
+
+/* small devise */
+
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    /* hero section */
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 4.6vh;
+        /* text-align: center; */
+        line-height: 6vh;
+    }
+
+    .hero-image {
+        width: 90%;
+    }
+
+    /* .hero-image img {
+        width: 75%;
+        padding-left: 10vw;
+    } */
 }
