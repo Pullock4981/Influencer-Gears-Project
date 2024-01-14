@@ -1,10 +1,10 @@
-*{
+* {
     font-family: 'Inter', sans-serif;
     font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
-.primary-btn{
+.primary-btn {
     border: 0;
     border-radius: 41px;
     background: #E02C6D;
@@ -18,82 +18,88 @@
 
 /* header style */
 
-    header{
-        padding: 10vh 8vw;
-    }
+header {
+    padding: 10vh 8vw;
+}
 
-    /* nav style */
+/* nav style */
 
-    nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    nav > h3{
-        color: #3A3A3A;
-        font-family: Poppins;
-        font-size: 3vh;
-        font-weight: 700;
-    }
+nav>h3 {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 3vh;
+    font-weight: 700;
+}
 
-    nav > ul{
-        display: flex;
-    }
+nav>ul {
+    display: flex;
+}
 
-    nav li {
-        list-style: none;
-        margin-right: 2vw;
-    }
+nav li {
+    list-style: none;
+    margin-right: 2vw;
+}
 
-    nav li a{
-        text-decoration: none;
-        color: #3A3A3A;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 2vh;
-        font-weight: 600;
-    }
+nav li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2vh;
+    font-weight: 600;
+}
 
-    /* hero style */
+/* hero style */
 
-    .hero{
-        display: flex;
-        justify-content: space-between;
-        gap: 10%;
-        margin-top: 10vh;
-        /* margin: 0 auto; */
-    }
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 11vw;
+    height: 90vh;
+}
 
-    .hero-text{
-        width: 45%;
-    }
+.hero-text {
+    width: 45%;
+}
 
-    .hero-text h1{
-        color: #3A3A3A;
-        font-family: Poppins;
-        font-size: 6.7vh;
-        font-weight: 700;
-        line-height: 9vh;
-    }
+.hero-text h1 {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 6.7vh;
+    font-weight: 700;
+    line-height: 9vh;
+}
 
-    .primary-text{
-        color: #3A3A3A;
-        font-family: Poppins;
-        font-size: 2vh;
-        font-style: normal;
-        font-weight: 600;
-    }
+.primary-text {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 600;
+}
 
-    .hero-image{
-        background-image: url('images/Circle\ design.svg');
-        background-repeat: no-repeat;
-        width: 32vw;
-        height: 64vh;
-    }
+.hero-image {
+    background-image: url('images/Circle\ design.svg');
+    background-position: center;
+    /* ene ami cover use korcilam jate responsive e problem hoitasilo bg img position e. contain use korate thik kaj kortese */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 60vh;
 
-    .hero-image img{
-        width: 93%;
-        height: auto;
-        padding-top: 2vh;
-    }
+
+}
+
+.hero-image img {
+    width: 28vw;
+    height: auto;
+    padding-top: 4vh;
+    padding-left: 1vw;
+}
