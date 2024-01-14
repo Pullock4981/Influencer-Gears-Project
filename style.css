@@ -6,9 +6,20 @@
 
 .primary-btn {
     border: 0;
-    border-radius: 41px;
+    border-radius: 5vh;
     background: #E02C6D;
     padding: 1.3vw 4.5vh;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2vh;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.secund-btn{
+    border: 0;
+    background: #E02C6D;
+    padding: 1vw 4.5vw;
     color: #FFF;
     font-family: Poppins;
     font-size: 2vh;
@@ -202,6 +213,91 @@ nav li a {
     padding-right: 6vw;
 }
 
+.see-more > p{
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 2vh;
+    font-weight: 700;
+    padding-top: 2vh;
+    text-align: right;
+}
+
+/* featured */
+
+.feature{
+    margin: 3vh 10vw;
+}
+
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6.5vw;
+}
+
+.feature-image img{
+    width: 26vw;
+    height: 34vh;
+    border-radius: 0.7vh;
+}
+
+.feature-text > h3{
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 5vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7.5vh;
+    margin: 0;
+}
+
+.feature-text > p{
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 2vh;
+    font-weight: 700;
+    line-height: 3.5vh;
+    margin: 0;
+    margin-bottom: 2vh;
+    padding-right: 7vw;
+}
+
+/* footer */
+
+footer{
+    margin: 0;
+    background-color: #0A0826;
+}
+
+.footer-text{
+    text-align: center;
+    padding: 7vh;
+}
+
+.footer-heading{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 3vh;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer-small-text{
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-family: Manrope;
+    font-size: 2vh;
+    font-weight: 700;
+    line-height: 3vh;
+    margin: 0;
+}
+.icon{
+    color: #fff;
+    /* width: 4vh;
+    height: 4vh;
+    border-radius: 50%; */
+    /* display: flex; */
+    gap: 1vw;
+}
 
 /* media query */
 
@@ -291,5 +387,34 @@ nav li a {
 
     .card-prize{
         margin-bottom: 2vh;
+    }
+
+    /* feature */
+
+    .feature{
+        margin: 0 auto;
+    }
+
+    .feature-container{
+        flex-direction: column-reverse;
+    }
+
+    .feature-text{
+        text-align: center;
+    }
+
+    .feature-text p{
+        margin: 0 auto;
+    }
+
+    .feature-image img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* footer */
+
+    footer{
+        width: 100%;
     }
 }
